@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GAMESTICK - Mundo Gamer</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css"> 
+</head>
+<body>
+    <!-- Menú de navegación -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container">
+            <a class="navbar-brand" href="index.html">GAMESTICK</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="#navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link active" href="index.html">Inicio</a></li>
+                    <li class="nav-item"><a class="nav-link" href="resenas.html">Reseñas</a></li>
+                    <li class="nav-item"><a class="nav-link" href="contacto.html">Contacto</a></li>
+                    <li class="nav-item"><a class="nav-link" href="sobre_nosotros.html">Sobre nosotros</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    
+    <!-- Banner -->
+    <header class="banner d-flex align-items-center justify-content-center text-light">
+        <img src="Imagenes/Banner Gamestick.png" alt="Banner de Gamestick" class="img-fluid">
+    </header>
+    
+    <!-- Explicación de la página -->
+    <section class="container my-5 py-5">
+        <div class="row text-center g-4 justify-content-center">
+            <div class="col-md-4 bg-light p-4 shadow rounded mx-3">
+                <h3>Objetivo de la Página</h3>
+                <p>GAMESTICK es una plataforma dedicada a los amantes de los videojuegos retro y clásicos. Nuestro objetivo es brindar un espacio donde los jugadores puedan revivir y descubrir juegos icónicos, aprender sobre su historia y compartir experiencias con la comunidad gamer.</p>
+            </div>
+            <div class="col-md-4 bg-light p-4 shadow rounded mx-3">
+                <h3>Público Objetivo</h3>
+                <p>Esta página está dirigida a entusiastas de los videojuegos de todas las edades, desde aquellos que crecieron con estos juegos hasta nuevas generaciones interesadas en explorar títulos clásicos. También es un espacio ideal para desarrolladores, coleccionistas y apasionados de la cultura gamer.</p>
+            </div>
+        </div>
+    </section>
+    
+    <!-- Juegos -->
+    <section class="container-fluid my-5 px-0 py-5">
+        <div class="row align-items-center mb-4 bg-secondary text-white p-4 px-md-5 py-md-5">
+            <div class="col-md-6">
+                <h3>Snake</h3>
+                <br>
+                <p>El juego Snake es un clásico de los videojuegos donde controlas una serpiente que se mueve por la pantalla comiendo objetos (generalmente manzanas o puntos). Cada vez que la serpiente come, crece en longitud, lo que hace que moverse sin chocar contra sí misma o los bordes del escenario sea cada vez más desafiante.</p>
+            </div>
+            <div class="col-md-6 text-center">
+                <a href="juego culebra/juego culebra/juego.html" id="snake-link">
+                    <img src="Imagenes/Snake_OG-logo.jpg" alt="Imagen del logo del juego Snake" class="img-fluid game-image">
+                </a>
+            </div>
+        </div>
+        <div class="container-fluid px-0 py-3 bg-white">
+            <div class="row align-items-center mb-0 flex-md-row-reverse p-4">
+                <div class="col-md-6">
+                    <h3>Tic Tac Toe</h3>
+                    <br>
+                    <p>Tic Tac Toe, también conocido como Tres en Línea, es un juego de estrategia para dos jugadores que se juega en una cuadrícula de 3x3. Los jugadores se turnan para colocar su símbolo (X o O) en una celda vacía. El objetivo del juego es formar una línea de tres símbolos consecutivos en horizontal, vertical o diagonal antes que el oponente.</p>
+                </div>
+                <div class="col-md-6 text-center">
+                    <a href="Actvidad/index.html" id="tic-link">
+                        <img src="Imagenes/logo_tic_tac.png" alt="Imagen del juego Tic Tac Toe" class="img-fluid game-image">
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <!-- Reseñas -->
+    <section class="container-fluid px-0 bg-secondary text-white py-5">
+        <div class="container">
+            <h2 class="text-center">Reseñas</h2>
+            <div class="row text-center g-3">
+                <div class="col-md-4">
+                    <div class="bg-light p-4 shadow rounded text-dark review-card">
+                        <img src="Imagenes/Perfil_Usuario1.jpg" alt="Usuario 1" class="review-img">
+                        <p class="star-rating">★★★★★</p>
+                        <p>¡Increíble juego! Me divertí mucho jugándolo.</p>
+                        <h5>Juan Pérez</h5>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="bg-light p-4 shadow rounded text-dark review-card">
+                        <img src="Imagenes/Perfil_Usuario2.jpg" alt="Usuario 2" class="review-img">
+                        <p class="star-rating">★★★★☆</p>
+                        <p>Muy entretenido, aunque podría mejorar en algunos aspectos.</p>
+                        <h5>María Gómez</h5>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="bg-light p-4 shadow rounded text-dark review-card">
+                        <img src="Imagenes/Perfil_Usuario3.jpg" alt="Usuario 3" class="review-img">
+                        <p class="star-rating">★★★★★</p>
+                        <p>Uno de los mejores juegos retro que he probado.</p>
+                        <h5>Carlos Rodríguez</h5>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <!-- Footer -->
+    <footer class="bg-secondary text-light text-center py-4">
+        <p>&copy; 2025 Mundo Gamer - Todos los derechos reservados</p>
+    </footer>
+    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

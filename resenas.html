@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Reseñas - Mundo Gamer</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css"> 
+</head>
+<body>
+    <!-- Menú de navegación -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container">
+            <a class="navbar-brand" href="index.html">GAMESTICK</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link" href="index.html">Inicio</a></li>
+                    <li class="nav-item"><a class="nav-link active" href="resenas.html">Reseñas</a></li>
+                    <li class="nav-item"><a class="nav-link" href="contacto.html">Contacto</a></li>
+                    <li class="nav-item"><a class="nav-link" href="sobre_nosotros.html">Sobre nosotros</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    
+    <!-- Banner -->
+    <header class="banner d-flex align-items-center justify-content-center text-light">
+        <img src="Imagenes/Banner Gamestick.png" alt="Banner de Gamestick" class="img-fluid">
+    </header>
+    
+    
+    <!-- Contenido principal -->
+    <section class="container my-5">
+        <h2 class="text-center mb-4">Reseñas de Usuarios</h2>
+        
+        <!-- Formulario de reseñas -->
+        <div class="card p-4 mb-4">
+            <h4>Deja tu reseña</h4>
+            <form id="reviewForm">
+                <div class="mb-3">
+                    <label for="nombre" class="form-label">Nombre</label>
+                    <input type="text" class="form-control" id="nombre" required>
+                </div>
+                <div class="mb-3">
+                    <label for="comentario" class="form-label">Comentario</label>
+                    <textarea class="form-control" id="comentario" rows="3" required></textarea>
+                </div>
+                <div class="mb-3">
+                    <label class="form-label">Calificación:</label>
+                    <select id="calificacion" class="form-select" required>
+                        <option value="5">⭐⭐⭐⭐⭐</option>
+                        <option value="4">⭐⭐⭐⭐</option>
+                        <option value="3">⭐⭐⭐</option>
+                        <option value="2">⭐⭐</option>
+                        <option value="1">⭐</option>
+                    </select>
+                </div>
+                <button type="submit" class="btn btn-primary">Enviar Reseña</button>
+            </form>
+        </div>
+    </section>
+    
+    <!-- Footer -->
+    <footer class="bg-secondary text-light text-center py-4">
+        <p>&copy; 2025 Mundo Gamer - Todos los derechos reservados</p>
+    </footer>
+    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="resenas.js"></script> 
+</body>
+</html>
